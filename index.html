@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jana Rybarza</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio Jana Rybarza – inżynier automatyki i robotyki, programista PLC, pasjonat AI i druku 3D.">
+    <meta name="keywords" content="automatyka, robotyka, PLC, AI, druk 3D, programowanie, inżynieria">
+    <meta name="author" content="Jan Rybarz">
+</head>
+<body>
+
+    <header>
+        <h1>Jan Rybarz</h1>
+        <p>Inżynier Automatyki i Robotyki | Programowanie PLC | AI | Druk 3D</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#o-mnie">O mnie</a></li>
+            <li><a href="#doswiadczenie">Doświadczenie</a></li>
+            <li><a href="#projekty">Projekty</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="o-mnie">
+        <h2>O mnie</h2>
+        <p>
+            Jestem inżynierem automatyki i robotyki. Obecnie kontynuuję studia magisterskie na kierunku Automatyka i Robotyka. 
+            Moje zainteresowania obejmują sztuczną inteligencję, systemy automatyki przemysłowej oraz druk 3D. 
+            Mam doświadczenie w programowaniu sterowników PLC, integracji systemów HMI oraz optymalizacji procesów przemysłowych.
+        </p>
+    </section>
+    <section id="doswiadczenie">
+        <h2>Doświadczenie</h2>
+        <div class="experience-grid">
+            <div class="job">
+                <img src="images/winsell.jpg" alt="Winsell Sp. z o.o.">
+                <h3>Winsell Sp. z o.o.</h3>
+                <p><strong>Elektromonter (2025)</strong></p>
+                <p>Instalacja systemów awaryjnych i ewakuacyjnych.</p>
+            </div>
+            <div class="job">
+                <img src="images/lg.svg" alt="LG Energy Solution">
+                <h3>LG Energy Solution</h3>
+                <p><strong>Automatyk (2024)</strong></p>
+                <p>Programowanie PLC Mitsubishi, konfiguracja HMI Pro-face, modyfikacje systemów automatyki.</p>
+            </div>
+            <div class="job">
+                <img src="images/rs.png" alt="Rudolf Fritz/R+S">
+                <h3>Rudolf Fritz/R+S</h3>
+                <p><strong>Elektryk (2023)</strong></p>
+                <p>Montaż instalacji elektrycznych w budynkach biurowych i mieszkalnych.</p>
+            </div>
+            <div class="job">
+                <img src="images/bms.png" alt="BMS">
+                <h3>BMS</h3>
+                <p><strong>Obsługa maszyn specjalnych (2020)</strong></p>
+                <p>Naprawa i nadzór nad maszynami pakującymi.</p>
+            </div>
+            <div class="job">
+                <img src="images/ch4.png" alt="CH4">
+                <h3>CH4</h3>
+                <p><strong>Pomocnik automatyka (2019)</strong></p>
+                <p>Naprawa silników, asystowanie przy serwisie automatyki.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projekty">
+        <h2>Projekty</h2>
+    
+        <div class="project">
+            <h3>Elektroniczny system celowniczy CTS</h3>
+            <p>
+                Projekt CTS to komputerowo sterowany system celowniczy, który wykorzystuje mikrokontroler ESP32,
+                silniki krokowe i dalmierz do dynamicznego dostosowania nastaw celownika kolimatorowego.
+                System analizuje dane balistyczne, a następnie automatycznie koryguje punkt celowania.
+            </p>
+            <a href="https://youtu.be/tkuBHL7tCkE?si=BrKY0bgrcLywuE11" target="_blank" class="button">Zobacz na YouTube 🎥</a>
+    
+            <div class="project-gallery">
+                <img src="images/model.jpg" alt="Model 3D celownika">
+                <img src="images/front.PNG" alt="Celownik z elektroniką">
+                <img src="images/apka.png" alt="Aplikacja - ustawienia balistyki">
+                <img src="images/ammo.png" alt="Interfejs - wybór amunicji">
+            </div>
+    
+            <p><a href="assets/Projekt_Celownik.pdf" download>Pobierz dokumentację projektu (PDF)</a></p>
+        </div>
+         <!-- Projekt: Praca inżynierska -->
+    <div class="project">
+        <h3>Praca inżynierska – Identyfikacja parametrów manipulatora 3R</h3>
+        <p>
+            Moja praca inżynierska skupia się na identyfikacji parametrów manipulatora 3R przy użyciu sterowania predykcyjnego (MPC). 
+            Zaimplementowałem model matematyczny oraz algorytm MPC w Pythonie, który pozwala na precyzyjne estymowanie parametrów manipulatora.
+        </p>
+
+        <div class="mpc-image-container">
+            <img src="images/mpc_algorithm.png" alt="Diagram algorytmu MPC" class="large-image">
+        </div>
+
+        <p><a href="assets/Inzynierka_Jan_Rybarz.pdf" download>Pobierz pracę inżynierską (PDF)</a></p>
+    </div>
+    </section>
+    
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:r.janek2002@gmail.com">r.janek2002@gmail.com</a></p>
+        <p>Telefon: +48 794 994 342</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jan-rybarz-3a66262b2/" target="_blank">linkedin.com/in/jan-rybarz-3a66262b2</a></p>
+        <p>GitHub: <a href="https://github.com/Matejko240" target="_blank">github.com/Matejko240</a></p>
+        <p><a href="assets/CV_Jan_Rybarz.pdf" download>Pobierz moje CV (PDF)</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
